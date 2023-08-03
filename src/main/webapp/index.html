@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tarandruss - Devoluciones y Cambios</title>
+        <link href="reset.css" rel="stylesheet">
+        <link rel="stylesheet" href="Formulario.css">
+    </head>
+    <body>
+        <main>
+            <section id="cambios-devoluciones">
+                <h2>Solicitar Cambios y Devoluciones de Productos</h2>
+                <form action="mostrarDatos" method="get" >
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pedido">Número de pedido:</label>
+                        <input type="text" id="pedido" name="pedido" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="motivo">Motivo:</label>
+                        <textarea id="motivo" name="motivo" rows="5" required></textarea>
+                    </div>
+                        <input type="submit" value="Enviar solicitud">
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
